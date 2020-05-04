@@ -9,6 +9,8 @@ pdf_document:
     fig_width: 3
     fig_height: 12
     fig_caption: true
+    includes:
+            in_header: file.tex
 
     
 toc: True
@@ -19,7 +21,7 @@ fontsize: 12pt
 
 
 bibliography: mycitations.bib
-#csl: ieee.csl
+csl: ieee.csl
 ---
 # 1. Level-1 heading (A)
 This is how I am going to cite my work [@R-base].
@@ -28,9 +30,10 @@ This is how I am going to cite my work [@R-base].
 my second citation [@Maetschke2014].
 
 ###3. Level-3 heading (C)
+
 My third citation[@RazaghiMoghadam2020a].
 ```{r}
-library(ggplot2)
+
 dat <- data.frame(
   time = factor(c("Lunch","Dinner"), levels=c("Lunch","Dinner")),
   total_bill = c(14.89, 17.23)
@@ -38,14 +41,10 @@ dat <- data.frame(
 knitr::kable(dat)
 ```
 
-```{r, type="figure", echo=FALSE, fig.align='left', fig.cap="Look at this nice big sample"}
-ggplot(data=dat, aes(x=time, y=total_bill)) +
-  geom_bar(stat="identity")
-```
-
 ####4. Level-4 heading (D)
 
-```{r, type="figure", anchor="figure", echo=FALSE, fig.align='left', fig.cap="second figure"}
+```{r fig.cap="left-aligned", type="figure", anchor="figure", echo=FALSE, fig.align='left', fig.cap="second figure"}
+library(ggplot2)
 ggplot(data=dat, aes(x=time, y=total_bill)) +
   geom_bar(stat="identity")
 ```
@@ -55,4 +54,5 @@ ggplot(data=dat, aes(x=time, y=total_bill)) +
 
 
 # References
+
 
