@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588544301012.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "153262316",
+    "id" : "25EDB1A0",
+    "lastKnownWriteTime" : 1588609893,
+    "last_content_update" : 1588609893045,
+    "path" : "~/Documents/Projects/Presentations/RUG_meeting/pdf_rnotebook/creating_pdf.Rmd",
+    "project_path" : "creating_pdf.Rmd",
+    "properties" : {
+        "cursorPosition" : "47,39",
+        "scrollLine" : "44",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

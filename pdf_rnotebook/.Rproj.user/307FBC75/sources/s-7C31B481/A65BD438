@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588543339229.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A65BD438",
+    "lastKnownWriteTime" : 1588608777,
+    "last_content_update" : 1588609308883,
+    "path" : "~/Documents/Projects/Presentations/RUG_meeting/pdf_rnotebook/presentation.Rpres",
+    "project_path" : "presentation.Rpres",
+    "properties" : {
+        "cursorPosition" : "98,0",
+        "scrollLine" : "86"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_presentation"
+}

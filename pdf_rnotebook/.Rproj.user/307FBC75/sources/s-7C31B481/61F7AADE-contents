@@ -1,0 +1,41 @@
+install.packages("nycflights13")
+library(nycflights13)
+library(ggplot2)
+
+
+#Vectors: a series of values. 
+#These are created using the c() function, 
+#where c() stands for “combine” or “concatenate.” 
+#For example, c(6, 11, 13, 31, 90, 92) creates a six element series of positive integer values
+
+#this is a vector 
+example_vector <- c(6, 11, 13, 31, 90, 92)
+#character vector 
+char_vector <- c("red", "blue", "red")
+char_vector2 <- c("These", "are", "created", "using")
+#Data frames= table
+
+#function 
+one_to_six <- seq(1:6)
+
+#conditional
+
+2 + 1 == 3 | 2 + 1 == 4 # this is "or" 
+
+2 + 1 == 3 & 2 + 1 == 4 #this is "and" 
+
+#R package is a set of functions for a specific analysis 
+
+
+dat <- data.frame(
+  time = factor(c("Lunch","Dinner"), levels=c("Lunch","Dinner")),
+  total_bill = c(14.89, 17.23)
+)
+
+
+dat
+ggplot(data=dat, aes(x=time, y=total_bill)) +
+  geom_bar(stat="identity")
+
+
+
